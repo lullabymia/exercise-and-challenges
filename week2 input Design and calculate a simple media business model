@@ -1,0 +1,5 @@
+visitor = int(input('please enter visitor number' ))
+subscription = 15 * visitor * 0.1
+ad = 0.8 * visitor
+revenue = (subscription+ad)-150000
+print (revenue)
