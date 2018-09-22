@@ -1,0 +1,13 @@
+visitor = int(input('please enter visitor number' ))
+if visitor <= 50000:
+    it = 50000
+    subscription = 15 * visitor * 0.1
+    ad = 0.8 * visitor
+    revenue = (subscription+ad)-150000-it
+    print (revenue)
+else:
+    it=50000+visitor*0.001
+    subscription = 15 * visitor * 0.1
+    ad = 0.8 * visitor
+    revenue=(subscription+ad)-150000-it
+    print (revenue)
