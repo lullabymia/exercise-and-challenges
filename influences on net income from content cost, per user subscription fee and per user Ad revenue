@@ -1,0 +1,32 @@
+# visitor=40000
+print('visitor subscription    ad              revenue')
+visitor = 40000
+subscription = 15 * visitor * 0.1
+ad = 0.8 * visitor
+revenue = (subscription+ad)-150000
+row = '{0:04d}	{1:.2f}	{2:.2f}	{3:.2f}'.format(visitor, subscription, ad, revenue)
+print(row)
+
+# visitor=60000
+visitor = 60000
+subscription = 15 * visitor * 0.1
+ad = 0.8 * visitor
+revenue = (subscription+ad)-150000
+row = '{0:04d}	{1:.2f}	{2:.2f}	{3:.2f}'.format(visitor, subscription, ad, revenue)
+print(row)
+
+# visitor=80000
+visitor = 80000
+subscription = 15 * visitor * 0.1
+ad = 0.8 * visitor
+revenue = (subscription+ad)-150000
+row = '{0:04d}	{1:.2f}	{2:.2f}	{3:.2f}'.format(visitor, subscription, ad, revenue)
+print(row)
+
+# visitor=100000
+visitor = 100000
+subscription = 15 * visitor * 0.1
+ad = 0.8 * visitor
+revenue = (subscription+ad)-150000
+row = '{0:04d}	{1:.2f}	{2:.2f}	{3:.2f}'.format(visitor, subscription, ad, revenue)
+print(row)
