@@ -1,16 +1,17 @@
-
+print('hello')
 r = 0.05 / 12
-n = 20 * 12
-P = 10000000
-A = P * r * (1+r)**n / ((1+r)**n - 1)
+P = 3000000
+A = 85000
 
 outstanding = P
-month = 0
 
-for i in range(240):
+month = 1
+while outstanding >= 0:
     month = month + 1
     interest = outstanding * r
     principal = A - interest
     outstanding = outstanding - principal
-if outstanding<=0:
-    print('number of months',month)
+    row = '{0:04d}	{1:.2f}	{2:.2f}	{3:.2f}	{4:.2f}'.format(month, A, interest, principal, outstanding)
+    print(row)
+    if outstanding < 0:
+        print('months paid off:', month)
