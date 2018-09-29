@@ -1,0 +1,21 @@
+b = {
+
+"Central and Western":	[中西區,244,600],	
+"Eastern":	[東區,574,500],		
+"Southern":	[南區,269,200],	
+"Wan Chai":	[灣仔區,150,900],	
+"Sham Shui Po":	[深水埗區,390,600],	
+"Kowloon City":	[九龍城區,405,400],	
+"Kwun Tong":[觀塘區,641,100],	
+"Wong Tai Sin":	[黃大仙區,426,200],
+"Yau Tsim Mong":[油尖旺區,318,100],	
+"Islands":	[離島區,146,900],
+"Kwai Tsing":	[葵青區,507,100],	
+"North":	[北區,310,800],
+"Sai Kung":	[西貢區,448,600],	
+"Sha Tin":	[沙田區,648,200],	
+"Tai Po":	[大埔區,307,100],	
+"Tsuen Wan":	[荃灣區,303,600],	
+"Tuen Mun":	[屯門區,495,900],	
+"Yuen Long":	[元朗區,607,200],	
+}
