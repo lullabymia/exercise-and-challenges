@@ -64,7 +64,8 @@ case_list =[
     'case10 - what is hip-hop in china?'
     ]
 
-import random
+
+import random 
 random.shuffle(student_list)
 list1=student_list
 print(list1)
@@ -72,12 +73,16 @@ random.shuffle(case_list)
 list2=case_list
 print(list2)
 
+s=0
+c=0
 for s in student_list:
-    print(list2[0])
     
+    print(list2[s])
+    s=s+1
     for c in case_list:
-        print(list1[0:5])
         
+        print(list1[c:c+5])
+        c=c+5
     
 
 
